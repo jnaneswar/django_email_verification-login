@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block title %}
+Successful
+{% endblock title %}
+Successful
+
+{% block content %}
+<div class="container">
+
+
+<p class="text-center bg-success text-light "><i class="far fa-check-circle mr-2"></i>Verified Sucessfully</p>  <br />
+</div>
+<a class="text-center" href="{% url 'dashboard' %}">Back To Home</a>
+
+{% endblock content %}

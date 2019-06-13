@@ -1,0 +1,25 @@
+
+
+{% extends 'base.html' %}
+{%load static%}
+{% block title %}
+HOME
+{% endblock title %}
+
+{% block content %}
+<div class="container ">
+<h1> Welcome To ScrapShut!!! <h1>
+<hr />
+<a href="{% url 'login' %}" class="btn btn-info btn-lg btn-block">LOGIN</a>
+<hr />
+
+
+<br />
+
+<a href="{% url 'signup' %}" class="btn btn-secondary btn-lg btn-block">Sign Up</a>
+<hr />
+
+</div>
+
+  
+{% endblock %} 
